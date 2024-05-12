@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="A personal website describing my professional experience"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style/style.css" />
+  </head>
+  <body>
+    <header>
+      <ul class="header__list" type="none">
+        <li>Sobre Mim</li>
+        <li>Skills</li>
+        <li>Hobbies</li>
+        <li>Formação</li>
+        <li>Projetos</li>
+        <li class="header__list__last__item">fabiana.sousalima@hotmail.com</li>
+      </ul>
+    </header>
+    <main>
+      <section class="introduction">
+        <h1 class="introduction__title">Hello, my name is Fabiana Lima!</h1>
+        <p class="introduction__text">
+          I am currently working as a Full-Stack Developer, meanwhile I am
+          enrolled in some bootcamps focused on developing practical projects!
+        </p>
+        <ul class="introduction__links_container">
+          <li>
+            <a
+              class="introduction__links__container_item"
+              target="_blank"
+              href="http://www.github.com/fabiliima"
+              >Github</a
+            >
+          </li>
+          <li>
+            <a
+              class="introduction__links__container_item"
+              target="_blank"
+              href="https://www.linkedin.com/in/fabiana-lima-886467138/"
+              >Linkedin</a
+            >
+          </li>
+        </ul>
+        <img src="./img/perfil.jpeg" class="perfil" alt="Fabiana Lima" />
+      </section>
+      <section class="about_me">
+        <h2 class="about_me_title">About me</h2>
+        <p class="about_me_content">
+          With a background in software development and administrative area.
+          From my previous experiences, I've improved teamwork, communication,
+          technical and financial skills. Graduated in Business Administration
+          (2017 - Universidade de Mogi das Cruzes) and currently studying a
+          postgraduate degree in Full-Stack Development. Meanwhile, I am
+          enrolled in some bootcamps focused on developing practical projects.
+          I've worked with Ruby, Ruby on Rails, Node.js, GraphQl, React and
+          PostgreSQL as a Full-Stack Developer. But also experience with
+          accounts receivable and accounts payable. Being responsible to ensure
+          that all payments were up to date. I lived in Ireland from 2022 to
+          2023 in order to improve my English. During this period, I studied in
+          an English school and worked at a local company meeting people from
+          different countries and culture. Certified in IELTS Academic (C1 -
+          Advanced) . I'm passionate about continuous learning. Let's connect
+          and explore how my diverse skill set can add value to your team.
+          GitHub: github.com/fabiliima Organized, attentive and a fast learner
+        </p>
+      </section>
+      <section class="skills">
+        <h2 class="skills__title">Skills</h2>
+        <ul class="skills__list">
+          <li class="skills__list_item">HTML</li>
+          <li class="skills__list_item">CSS</li>
+          <li class="skills__list_item">Javascript</li>
+          <li class="skills__list_item">React</li>
+          <li class="skills__list_item">GraphQl</li>
+          <li class="skills__list_item">Node.js</li>
+        </ul>
+      </section>
+      <section class="hobbies">
+        <h2 class="hobbies__title">Hobbies</h2>
+        <ul class="hobbies__list">
+          <li class="hobbies__list__item">Travelling</li>
+          <li class="hobbies__list__item">Reading</li>
+          <li class="hobbies__list__item">Series</li>
+          <li class="hobbies__list__item">Learning a new language</li>
+        </ul>
+      </section>
+      <section class="education">
+        <h2 class="education__title">Education</h2>
+        <ul class="education__list">
+          <li class="education__list__item">
+            Full-Stack Developer 2024, Descomplica
+          </li>
+          <li class="education__list__item">Front-End, 2024, Alura</li>
+          <li class="education__list__item">Front-End, 2024, DevMedia</li>
+          <li class="education__list__item">
+            General English, 2023, Atlantic Language School
+          </li>
+          <li class="education__list__item">
+            Bachelor of Business - UMC, 2017
+          </li>
+        </ul>
+      </section>
+      <section class="experience">
+        <h2 class="experience__title">Experience</h2>
+
+        <div class="experience__item">
+          <div class="experience__content-box">
+            <h3 class="experience__content">
+              Software Developer - 2024 - Present
+            </h3>
+            <h4 class="experience__content">bem.care</h4>
+            <p class="experience__content">
+              Full-Stack Developer (Ruby and Ruby on Rails)
+            </p>
+          </div>
+        </div>
+
+        <div class="experience__item">
+          <div class="experience__content-box">
+            <h3 class="experience__content">
+              Software Developer - 2020 - 2022
+            </h3>
+            <h4 class="experience__content">Pitzi</h4>
+            <p class="experience__content">
+              Full-Stack Developer (Javascript, GraphQl and React)
+            </p>
+          </div>
+        </div>
+      </section>
+      <section class="contact">
+        <h2>Contact</h2>
+        <p>
+          Would you like to talk with me? Just fill the form below and I will
+          contact you back as soon as possible
+        </p>
+        <form action="#">
+          <div>
+            <label for="name">Name:</label>
+            <input type="text" id="name" />
+          </div>
+          <div>
+            <label for="email">Email:</label>
+            <input type="email" id="email" />
+          </div>
+          <div>
+            <label for="subject">Assunto:</label>
+            <input type="subject" id="subject" />
+          </div>
+          <div>
+            <label for="message">Mensagem:</label>
+            <textarea name="message" id="message"></textarea>
+          </div>
+          <button type="submit" onclick="sendMessage()">Enviar</button>
+        </form>
+      </section>
+    </main>
+    <footer class="footer">
+      <p>Developed by Fabiana Lima</p>
+      <p>2024</p>
+    </footer>
+    <script src="./main.js"></script>
+  </body>
+</html>

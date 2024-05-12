@@ -1,0 +1,209 @@
+* {
+  margin: 0;
+  border: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Raleway";
+  text-decoration: none;
+}
+
+.header__list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #5c5c5c;
+  font-weight: bold;
+  background-color: #f5f5f5;
+}
+
+.header__list li {
+  padding: 5px 10px;
+}
+
+.header__list__last__item {
+  margin-left: auto;
+  font-weight: bold;
+}
+
+.introduction {
+  background-color: #f5f5f5;
+  gap: 15px;
+  position: relative;
+}
+
+.introduction__title {
+  font-weight: 800px;
+  font-size: 35px;
+  color: #464646;
+  position: absolute;
+  padding-left: 500px;
+  padding-top: 30px;
+}
+
+.introduction__text {
+  font-size: 15px;
+  line-height: 25px;
+  color: #929292;
+  font-weight: bold;
+  position: absolute;
+  padding-left: 500px;
+  padding-top: 100px;
+}
+
+.introduction__links_container {
+  font-size: 15px;
+  line-height: 25px;
+  color: #929292;
+  position: absolute;
+  padding-left: 800px;
+  padding-top: 150px;
+  list-style: none;
+}
+
+.introduction__links__container_item {
+  list-style-type: none;
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
+}
+
+.about_me {
+  text-align: center;
+  line-height: 30px;
+  padding-top: 30px;
+  padding-right: 50px;
+  padding-left: 50px;
+  background-color: #eaf2fc;
+}
+
+.about_me_title,
+.skills__title,
+.hobbies__title,
+.education__title {
+  font-weight: 800px;
+  font-size: 25px;
+  color: #464646;
+}
+
+.about_me_content {
+  font-size: 15px;
+  text-align: justify;
+}
+
+.perfil {
+  width: 25%;
+  border-radius: 80px;
+  padding-left: 30px;
+  padding-top: 10px;
+}
+
+.skills,
+.hobbies,
+.education {
+  text-align: center;
+  background-color: #f5f5f5;
+  padding-bottom: 20px;
+}
+
+.skills__title,
+.hobbies__title,
+.education__title,
+.experience__title {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.skills__list,
+.hobbies__list,
+.education__list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.skills__list_item,
+.hobbies__list__item,
+.education__list__item {
+  display: inline-block;
+  width: 400px;
+  height: 100px;
+  background-color: white;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  line-height: 100px;
+  border-radius: 10px;
+  font-size: 15px;
+  color: #929292;
+  font-weight: bold;
+}
+
+.experience {
+  text-align: center;
+  background-color: #eaf2fc;
+  padding: 100px;
+}
+
+.experience__item {
+  display: inline-block;
+  margin: 10px;
+}
+
+.experience__content-box {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 20px;
+  font-size: 15px;
+  color: #929292;
+  font-weight: bold;
+}
+
+.contact {
+  background-color: #f5f5f5;
+  text-align: center;
+  line-height: 40px;
+}
+
+form {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+div {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: blue;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+footer {
+  width: 100%;
+  background-color: #eaf2fc;
+  text-align: center;
+  font-weight: bold;
+  padding: 10px;
+}
